@@ -466,3 +466,20 @@ background: white;
 .rowAbout {
   width: 70%;
 }
+
+.weddingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowWeddingContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.rowWeddingContainerItem {
+  margin: auto;
+  padding: 0 2rem;
+  width: 33%;
+}
