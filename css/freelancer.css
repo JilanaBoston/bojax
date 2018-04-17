@@ -475,31 +475,40 @@ background: white;
   align-items: center;
 }
 
-.rowWeddingContainer {
-  display: flex;
-  align-items: flex-start;
-}
+@media (min-width: 768px) {
+  .rowWeddingContainer {
+    display: flex;
+    align-items: flex-start;
+  }
 
-.rowWeddingContainerItem {
-  padding: 0 2rem;
-  width: 33%;
+  .rowWeddingContainerItem {
+    padding: 0 2rem;
+    width: 33%;
+  }
 }
 
 .form-control:focus{
   background-color: whitesmoke;
 }
 
-.reddingActivitiesItems {
-  float: left;
-  margin: 4pt 1pt;
-  text-align: center;
-  width: 20%;
+@media (min-width: 768px) {
+  .reddingActivitiesItems {
+    float: left;
+    margin: 4pt 1pt;
+    text-align: center;
+    width: 20%;
+  }
+
+  .reddingActivities {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }
 
 .reddingActivities {
   list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
+  text-align: left;
 }
