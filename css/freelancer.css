@@ -273,7 +273,8 @@ header.masthead h2 {
 
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
+  border: 1px solid #e9ecef;
+  background-color: whitesmoke;
 }
 
 .floating-label-form-group input,
@@ -282,7 +283,7 @@ header.masthead h2 {
   position: relative;
   z-index: 1;
   padding-right: 0;
-  padding-left: 0;
+  /* padding-left: 0; */
   resize: none;
   border: none;
   border-radius: 0;
@@ -452,8 +453,9 @@ border-radius: 50%;
 background: white;
 }
 
-.button-group{
-  padding-top: 20pt;
+.button-group {
+  padding-top: 10pt;
+  padding-left: 10pt; 
 }
 
 .rowContainer {
@@ -479,7 +481,25 @@ background: white;
 }
 
 .rowWeddingContainerItem {
-  margin: auto;
   padding: 0 2rem;
   width: 33%;
+}
+
+.form-control:focus{
+  background-color: whitesmoke;
+}
+
+.reddingActivitiesItems {
+  float: left;
+  margin: 4pt 1pt;
+  text-align: center;
+  width: 20%;
+}
+
+.reddingActivities {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
