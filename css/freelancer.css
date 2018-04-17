@@ -512,3 +512,9 @@ background: white;
   list-style-type: none;
   text-align: left;
 }
+
+@media (min-width: 768px) {
+  .weddingLogo  {
+    width: 60%;
+  }
+}
