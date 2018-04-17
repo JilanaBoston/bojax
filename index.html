@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Kelsey and Andrew get married!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,11 +55,7 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/weddingLogo.png" width="50%" alt="">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/poland.png" width="70%" alt="">
-        <h1 class="text-uppercase mb-0">Kelsey &amp; Andrew</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/weddingLogo.png" width="60%" alt="">
       </div>
     </header>
 
@@ -73,33 +69,33 @@
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="">the day of the wedding</i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/wedding.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class="">about Redding</i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid" src="img/portfolio/redding.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
+                  <i class=""></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/circus.png" alt="">
             </a>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <!-- <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -130,11 +126,12 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- About Section -->
     <section class="bg-primary text-white mb-0" id="about">
+      <img class="img-fluid mb-5 d-block mx-auto" src="img/poland.png" width="50%" alt="">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5">
@@ -165,19 +162,12 @@
                 That's the day we officially become "Mr. Kahn and future Dr. Moty." We look forward to celebrating our special day with family and friends.  </p>
           </div>
         </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            <i class="fa fa-download mr-2"></i>
-            Download Now!
-          </a>
-        </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="text-center text-uppercase text-secondary mb-0">RSVP</h2>
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -187,28 +177,24 @@
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <input class="form-control" id="name" type="text" placeholder="Name(s)" required="required" data-validation-required-message="Please enter your name(s).">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
+              <div class="button-group">
+                <label class="contain">Will be to attend 
+                  <input type="radio" id="attend" checked="checked" name="radio" value="canAttend">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="contain">Will not be to attend 
+                  <input type="radio" id="attend" name="radio" value="cannotAttend">
+                  <span class="checkmark"></span>
+                </label>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" rows="1" placeholder="Anything else to add?"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -295,13 +281,33 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">the day of the wedding</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              
+              <h3>when + where:</h3>
+                <p class="mb-5">
+                  june 02, 2018 at 5:30 pm<br>
+                  Outdoor ceremony and dinner reception will be held at the Moty house.<br>
+
+                  Address: 15465 Vantage Pt.<br>
+                  Redding, CA 96001<br><br></p>
+                  
+              <h3>what to wear:</h3>
+                <p class="mb-5">
+                  casual. something appropriate for a little bit of summer heat. <br>
+                  We're hoping that it will cool off by the time evening rolls around, but Redding can easily still be in the 80's at night (for all you East Coasters, it's dry heat, so that's a plus!).<br> 
+                  
+                  P.S. The bride isn't wearing white, so feel free to wear as much white as you'd like. </p>
+                  
+              <h3>parking:</h3>
+                  <p class="mb-5">parking is limited near the Moty house, so we will have parking available nearby at Grant School.<br>
+                  Shuttle service to and from the house will be provided beginning at 5 pm. <br><br>
+                  Address: 8835 Swasey Dr. <br>
+                  Redding, CA 96001
+                </p>
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
-                Close Project</a>
+                close</a>
             </div>
           </div>
         </div>
