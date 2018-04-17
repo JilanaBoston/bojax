@@ -40,7 +40,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #338569;
 }
 
 hr.star-dark {
@@ -353,7 +353,7 @@ a:focus, a:hover, a:active {
 }
 
 .bg-secondary {
-  background-color: rgb(0, 102, 68)!important;
+  background-color: rgb(0, 102, 68)!important; 
 }
 
 .text-primary {
@@ -385,7 +385,7 @@ a:focus, a:hover, a:active {
 }
 
 #about {
-  background-color: rgb(0, 102, 68) !important;
+  background-color: #338569 !important;
 }
 
 /* The container */
