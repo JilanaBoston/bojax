@@ -262,7 +262,7 @@ header.masthead h2 {
 
 @media (min-width: 768px) {
   .portfolio-modal .portfolio-modal-dialog {
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 5rem;
     margin: 3rem calc(3rem - 8px);
   }
