@@ -451,3 +451,14 @@ background: white;
 .button-group{
   padding-top: 20pt;
 }
+
+.rowContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rowAbout {
+  width: 70%;
+}
