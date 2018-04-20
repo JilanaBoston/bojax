@@ -9,23 +9,30 @@ $(function() {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
-      var attend = $("input#attend").val();
+      var attend = "cannotAttend"
+      if ($('input#attend').is(':checked')) {
+        attend = "canAttend"
+      }
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
+      console.log(name, attend, message)
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        // url: "././mail/contact_me.php",
+        url: "http://localhost:5000/rsvp",
+        // url: "http://weddingregistry-env.tfcnazzmi7.us-east-2.elasticbeanstalk.com/rsvp",
         type: "POST",
-        data: {
+        data: JSON.stringify({
           name: name,
           attend: attend,
           message: message
-        },
+        }),
+        contentType: 'application/json',
         cache: false,
         success: function() {
           // Success message
