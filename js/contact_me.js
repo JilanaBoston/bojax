@@ -24,8 +24,8 @@ $(function() {
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
         // url: "././mail/contact_me.php",
-        url: "http://localhost:5000/rsvp",
-        // url: "http://weddingregistry-env.tfcnazzmi7.us-east-2.elasticbeanstalk.com/rsvp",
+        // url: "http://localhost:5000/rsvp",
+        url: "http://weddingregistry-env.tfcnazzmi7.us-east-2.elasticbeanstalk.com/rsvp",
         type: "POST",
         data: JSON.stringify({
           name: name,
