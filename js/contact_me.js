@@ -25,7 +25,7 @@ $(function() {
       $.ajax({
         // url: "././mail/contact_me.php",
         // url: "http://localhost:5000/rsvp",
-        url: "http://weddingregistry-env.tfcnazzmi7.us-east-2.elasticbeanstalk.com/rsvp",
+        url: "https://weddingregistry-env.tfcnazzmi7.us-east-2.elasticbeanstalk.com/rsvp",
         type: "POST",
         data: JSON.stringify({
           name: name,
