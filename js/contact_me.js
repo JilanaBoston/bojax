@@ -9,9 +9,9 @@ $(function() {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
       var name = $("input#name").val();
-      var attend = "cannotAttend"
+      var attend = "no"
       if ($('input#attend').is(':checked')) {
-        attend = "canAttend"
+        attend = "yes"
       }
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
