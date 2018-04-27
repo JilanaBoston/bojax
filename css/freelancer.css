@@ -522,3 +522,16 @@ background: white;
     max-width: 50%;
   }
 }
+
+@media (min-width: 1025px){
+  .mobile-text{
+    color: white;
+    font-size: 0pt;
+  }
+}
+
+@media (max-width: 1024px){
+  .mobile-text{
+    color: black;
+  }
+}
