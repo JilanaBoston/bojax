@@ -535,3 +535,7 @@ background: white;
     color: black;
   }
 }
+
+.mobile-text-div {
+  margin-bottom: 0!important;
+}
